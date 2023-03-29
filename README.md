@@ -9,8 +9,6 @@ Synchronization: SlideSync ensures that the images in the webpage change in real
 
 Compatibility: The plugin works seamlessly with any WordPress page or post editor, allowing users to insert the synchronized images and video in any block within the editor.
 
-Customization: SlideSync offers a range of options to customize the appearance and behavior of the presentation. Users can adjust the size, position, and style of the images and video to best suit their needs.
-
 Easy setup: The plugin provides a user-friendly interface, making it simple to set up the synchronization between the video and the images. Users can easily configure the plugin and adjust the settings according to their requirements.
 
 Responsiveness: SlideSync is designed to be fully responsive, ensuring that the synchronized presentations look great on all devices, including desktops, laptops, tablets, and smartphones.
