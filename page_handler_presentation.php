@@ -267,6 +267,7 @@ var currentPointIndex = -1;
 var YoutubePlayer;
 var HTML5Player;
 var videoContainer = document.querySelector('.work-video-play');
+var videoContainer_offsetWidth=videoContainer.offsetWidth;
 var videoTypeSelect = document.getElementById('item-type');
 var videoUrlInput = document.getElementById('item-url');
 var unsavedChanges = false;
@@ -376,6 +377,19 @@ function onYouTubeIframeAPIReady() {
 
 // Play video when ready
 function onPlayerReady(event) {
+	// Get the dimensions of the video
+	var videoEmbedCode = YoutubePlayer.getVideoEmbedCode();
+	var videoWidth = videoEmbedCode.match(/width=\"(\d+)\"/)[1];
+	var videoHeight = videoEmbedCode.match(/height=\"(\d+)\"/)[1];
+
+	// Calculate the aspect ratio
+	var aspectRatio = videoHeight / videoWidth;
+
+	// Get the dimensions of the player container
+	var containerWidth = videoContainer_offsetWidth;
+
+	// Set the width of the player to 100% of the container and the height based on the aspect ratio
+	YoutubePlayer.setSize(containerWidth, containerWidth * aspectRatio);
 	event.target.playVideo();
 }
 
