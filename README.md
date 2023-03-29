@@ -16,3 +16,5 @@ Easy setup: The plugin provides a user-friendly interface, making it simple to s
 Responsiveness: SlideSync is designed to be fully responsive, ensuring that the synchronized presentations look great on all devices, including desktops, laptops, tablets, and smartphones.
 
 Wide range of use cases: The plugin is ideal for online courses, webinars, conferences, and any other scenario where a presenter is delivering a multimedia presentation.
+
+Not yet optimized, but functional
