@@ -15,4 +15,4 @@ Responsiveness: SlideSync is designed to be fully responsive, ensuring that the 
 
 Wide range of use cases: The plugin is ideal for online courses, webinars, conferences, and any other scenario where a presenter is delivering a multimedia presentation.
 
-Not yet optimized, but functional
+Backend not yet optimized, but functional. Frontend optimized
