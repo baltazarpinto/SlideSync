@@ -109,7 +109,7 @@ function SlideSinc_playVideo(videoType, videoUrl, timePoints, imageContainerSele
 
             // Set the width of the player to 100% of the container and the height based on the aspect ratio
             youtubePlayer.setSize(containerWidth, containerWidth * aspectRatio);
-            event.target.playVideo();
+            // event.target.playVideo();
         }
 
         // Update image when state changes to playing
@@ -125,7 +125,7 @@ function SlideSinc_playVideo(videoType, videoUrl, timePoints, imageContainerSele
             if (html5Player) {
                 html5Player.src = videoUrl;
                 html5Player.load();
-                html5Player.play();
+						//html5Player.play();
                 // Add event listener for timeupdate event of the video element
                 html5Player.addEventListener('timeupdate', updateDivContent);
             }
