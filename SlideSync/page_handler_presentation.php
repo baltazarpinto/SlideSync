@@ -756,7 +756,7 @@ function __slidesync_saveData() {
 	// Delete rows not found in $_POST['content_id']
 	if ( ! empty( $content_ids ) ) {
 		$content_ids_string = implode( ',', $content_ids );
-		$delete_query = "DELETE FROM $table_name WHERE id NOT IN ($content_ids_string)";
+		$delete_query = "DELETE FROM $table_name WHERE presentation_id= $id and id NOT IN ($content_ids_string)";
 		$wpdb->query( $delete_query );
 	}
 
