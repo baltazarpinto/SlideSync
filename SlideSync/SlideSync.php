@@ -1,9 +1,14 @@
 <?php
 /*
 Plugin Name: SlideSync
-Description: A plugin to adjust a set of images in synch with a video
-Author: Baltazar
+Plugin URI: https://github.com/baltazarpinto/SlideSync
+Description: SlideSync is a WordPress plugin designed to enhance the experience of online presentations by synchronizing images with the corresponding video.
 Version: 1.0
+Author: Baltazar Pinto
+Author URI: https://github.com/baltazarpinto
+License: GPL-2.0+
+License URI: http://www.gnu.org/licenses/gpl-2.0.txt
+Text Domain: slidesync
 */
 global $slidesync_ver;
 $slidesync_ver = '2.9';
